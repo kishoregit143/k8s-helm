@@ -10,7 +10,7 @@ spec:
  replicas: {{ .Values.deployment.replicas }}
  selector:
  # this lablels used to  select the pods
-  matchlabels:
+  matchLabels:
    purpose: helm-demo
    project: roboshop
    #pod defention
